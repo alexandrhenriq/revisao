@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    font-family: Arial;
+ } 
+ 
+  header {
+    background: #7B8CDE;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+  }
+ 
+ header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+
+ }
+ 
+ nav { 
+    display: flex;
+    gap: 7rem;
+ }
+ 
+ header a:hover {
+    text-decoration: underline
+ }
+
+ section {
+    border: 1px solid red;
+    height: calc(100vh - 6rem);
+ } 
+
+ #listas {
+  margin-top: 6rem;
+ }
+
+ body, form {
+   margin: 0;
+   padding: 0;
+}
+
+/* Estilo básico del formulario */
+.my-form {
+   width: 300px;
+   margin: 20px auto;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: #f4f4f4;
+}
+
+/* Estilo para las etiquetas del formulario */
+label {
+   display: block;
+   margin-bottom: 8px;
+   font-weight: bold;
+}
+
+/* Estilo para los campos de entrada de texto */
+input[type="text"],
+input[type="email"],
+textarea {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+}
+
+/* Estilo para el botón de enviar */
+button[type="submit"] {
+   background-color: #4caf50;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+button[type="submit"]:hover {
+   background-color: #45a049;
